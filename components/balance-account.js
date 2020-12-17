@@ -10,7 +10,8 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
     backgroundColor: "#1F2744",
     padding: theme.spacing(2),
-    marginTop: theme.spacing(2)
+    marginTop: theme.spacing(2),
+    marginBottom: theme.spacing(2)
   },
   thumb: {
     width: 147,
