@@ -55,11 +55,16 @@ const ProfileContent = () => {
   const classes = useStyles();
   return (
     <Grid container spacing={3}>
-      <Grid item xs={6} className={[classes.groupLeft, classes.groupDetails]}>
+      <Grid
+        item
+        xs={12}
+        md={6}
+        className={[classes.groupLeft, classes.groupDetails]}
+      >
         <BalanceAccount {...BALANCE} />
         <CommunicationDetails />
       </Grid>
-      <Grid item xs={6} className={[classes.groupDetails]}>
+      <Grid item xs={12} md={6} className={[classes.groupDetails]}>
         <AccountDetails />
       </Grid>
 

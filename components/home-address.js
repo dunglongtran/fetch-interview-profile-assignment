@@ -69,7 +69,7 @@ export default function HomeAddress(props) {
 
   return (
     <Grid container className={classes.root}>
-      <Grid item xs={6} className={[classes.groupLeft]}>
+      <Grid item xs={12} md={6} className={[classes.groupLeft]}>
         <Typography className={[classes.text]}>Home Address</Typography>
         <TextField
           InputLabelProps={{
@@ -83,7 +83,7 @@ export default function HomeAddress(props) {
           className={classes.textField}
         />
       </Grid>
-      <Grid item xs={6} className={[classes.groupRight]}>
+      <Grid item xs={12} md={6} className={[classes.groupRight]}>
         <TextField
           InputLabelProps={{
             shrink: true

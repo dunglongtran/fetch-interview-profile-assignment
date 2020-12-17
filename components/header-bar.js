@@ -48,6 +48,10 @@ const useStyles = makeStyles((theme) => ({
   menuButton: {
     color: "#A1D6FA"
   },
+  buttonSquare: {
+    backgroundColor: "rgba(159, 216, 255, 0.33)",
+    borderRadius: "5%"
+  },
   title: {
     flexGrow: 1,
     color: "#A1D6FA",
@@ -68,7 +72,7 @@ export default function Header() {
           <div className={classes.buttons}>
             <IconButton
               edge="start"
-              className={classes.menuButton}
+              className={[classes.menuButton, classes.buttonSquare].join(" ")}
               color="inherit"
               aria-label="menu"
             >
