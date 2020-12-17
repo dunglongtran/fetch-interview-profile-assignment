@@ -82,6 +82,7 @@ export default function TextFieldHorizontal(props) {
     ...option
   } = props;
   const classes = useStyles();
+  console.log(optionClass);
   return (
     <div
       className={[classes.textField, ...optionClass].join(" ")}

@@ -23,7 +23,8 @@ const GENDERS = [
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    "& .MuiTextField-root": {}
+    "& .MuiTextField-root": {},
+    marginBottom: theme.spacing(2)
   },
   accountDetails: {
     display: "flex",
@@ -58,9 +59,9 @@ const useStyles = makeStyles((theme) => ({
     }
   },
   changePassword: {
-    ".MuiInputBase-input": {
+    "& input.MuiInputBase-input": {
       textDecoration: "underline",
-      textUnderlinPosition: "under"
+      textUnderlinePosition: "under"
     }
   }
 }));
