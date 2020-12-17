@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+/* can now reference my font */
+body {
+  font-family: Mulish;
+  background-color: #172038;
+  display: flex;
+  align-items: center;
+}
+#__next {
+  width: 100%;
+}
+
+/* my custom css */
